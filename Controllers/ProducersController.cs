@@ -62,6 +62,8 @@ namespace e_commerce.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+
         //Get: Actors/Delete/1
         public async Task<IActionResult> Delete(int id)
         {

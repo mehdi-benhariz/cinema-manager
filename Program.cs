@@ -4,8 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddRazorPages(); // For MVC views
-builder.Services.AddControllersWithViews(); // Add MVC
+builder.Services.AddRazorPages(); 
+builder.Services.AddControllersWithViews(); 
 builder.Services.AddServerSideBlazor();
 
 builder.Services.AddDbContext<AppDbcontext>(options =>

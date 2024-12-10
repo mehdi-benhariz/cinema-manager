@@ -24,6 +24,11 @@ namespace e_commerce.Data
 
 
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Cinema>().HasData(
+            new Cinema { CinemaId = 1, Name = "Cinema 1", Logo = "logo1.png", Description = "Description 1" },
+            new Cinema { CinemaId = 2, Name = "Cinema 2", Logo = "logo2.png", Description = "Description 2" },
+            new Cinema { CinemaId = 3, Name = "Cinema 3", Logo = "logo3.png", Description = "Description 3" }
+        );
         }
         public DbSet<Actor> Actors {get ; set ;}
         public DbSet<Movie> Movies { get; set; }

@@ -7,7 +7,7 @@
 <div class="row text">
     <div class="col-md-8 offset-2">
         <p>
-            <h1>Add a New Actor</h1>
+        <h1>Add a New Actor</h1>
         </p>
         <div class="row">
             <div class="col-md-8 offset-2">
@@ -15,7 +15,7 @@
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                     <div class="form-group text-center">
-                        <img id="ProfilePicturePreview"  class="border-info rounded-circle" style="max-width: 150px" />
+                        <img id="ProfilePicturePreview" class="border-info rounded-circle" style="max-width: 150px" />
                     </div>
                     <div class="form-group">
                         <label asp-for="ProfiilePictureURL" class="control-label"></label>
@@ -35,6 +35,7 @@
 
                     <div class="form-group">
                         <input type="submit" value="Create" class="btn btn-outline-success float-right" />
+
                         <a class="btn btn-outline-secondary" asp-action="Index">Show All</a>
                     </div>
                 </form>
@@ -43,7 +44,7 @@
     </div>
 </div>
 
-@section Scripts{ 
+@section Scripts {
     <script>
         $(document).ready(function () {
             var output = document.getElementById('ProfilePicturePreview');

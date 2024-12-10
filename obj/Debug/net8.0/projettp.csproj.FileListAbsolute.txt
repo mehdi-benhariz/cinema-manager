@@ -83,3 +83,4 @@ C:\Users\benha\source\repos\projettp\projettp\bin\Debug\net8.0\runtimes\win\lib\
 C:\Users\benha\source\repos\projettp\projettp\obj\Debug\net8.0\projettp.RazorAssemblyInfo.cache
 C:\Users\benha\source\repos\projettp\projettp\obj\Debug\net8.0\projettp.RazorAssemblyInfo.cs
 C:\Users\benha\source\repos\projettp\projettp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\benha\source\repos\projettp\projettp\obj\Debug\net8.0\projettp.sourcelink.json
